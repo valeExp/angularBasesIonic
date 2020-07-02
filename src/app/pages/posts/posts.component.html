@@ -1,0 +1,7 @@
+<ul class='list-group' >
+  <app-post *ngFor="let res of respuesta | async"
+  [post] = "res"  (getId) = "mostrarID( $event )" >
+
+  </app-post>
+
+</ul>
